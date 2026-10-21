@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <AssemblyName>BilljaminLauncher</AssemblyName>
+    <RootNamespace>BilljaminLauncher</RootNamespace>
+    <Version>1.2.0</Version>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <FileVersion>1.2.0.0</FileVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\launcher-reference.png" LogicalName="BilljaminLauncher.Assets.launcher-reference.png" />
+    <EmbeddedResource Include="Assets\dark-stone-tile.png" LogicalName="BilljaminLauncher.Assets.dark-stone-tile.png" />
+  </ItemGroup>
+</Project>
